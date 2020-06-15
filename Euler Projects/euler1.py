@@ -1,10 +1,8 @@
-#binden kucuk olup 3 veya 5 e tam bolunen 
-#sayilarin toplami kactir
-toplam = 0
-for sayi in range(1,1000):
-    if sayi % 3 == 0 or sayi % 5 == 0:
-        toplam += sayi
+sum = 0
+for number in range(1,1000):
+    if number % 3 == 0 or number % 5 == 0:
+        sum += number
         
-print(toplam)
+print(sum)
 
 
