@@ -1,6 +1,6 @@
 #1 den 20 ye kadar olan sayilarin hepsine bolunebilen en kucuk sayi kactir
 
-#cozum1(BRUTEFORCE ATTIM)
+#solution1 (BRUTEFORCE ATTIM)(unoptimized!!)
 
 list = []
 i = 1
@@ -17,7 +17,7 @@ while True:
     k = 0
 
 
-#cozum2
+#solution2 (optimized)
 
 import math 
 
