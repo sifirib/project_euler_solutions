@@ -1,8 +1,5 @@
-# 4 milyondan kucuk cift fibonacci 
-# dizilerinin toplami kactir
-# 1 1 2 3 5 8 13 21...
+#solution1
 
-# cozum1
 # fibonacci_list = []
 # fibonacci_list.append(1)
 # fibonacci_list.append(1)
@@ -23,11 +20,11 @@
 
 
 
-# cozum2
+# solution2
 
 # a = 1
 # b = 1
-# toplam = 0
+# sum = 0
 
 # while True:
 #     c = a + b
@@ -37,33 +34,7 @@
 #     if c > 4000000:
 #         break
 #     if c % 2 == 0:
-#         toplam += c
+#         sum += c
         
         
-# print(toplam)
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        
-
+# print(sum)
