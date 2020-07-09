@@ -41,7 +41,6 @@ the_numbers = []
 the_numberss = []
 for dividend in range(10,100):
     aux_numbers = is_equal(dividend)    
-    print(aux_numbers)
     i = 2
     k = 0
     while i < 10:
@@ -61,6 +60,4 @@ for dividend in range(10,100):
 answer = 1
 for i in range(1,len(the_numberss),2):
     answer *= the_numberss[i]
-print(len(the_numberss))
 print(answer)
-print(the_numbers)
