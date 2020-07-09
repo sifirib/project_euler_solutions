@@ -52,7 +52,7 @@ for i in range(1,10):
                 continue
                 if i == 3 and result not in the_numbers:
                     the_numbers.append(result)
-print(the_numbers)
+print(the_numbers) 
                                     
         
 
