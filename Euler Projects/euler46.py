@@ -28,15 +28,6 @@ while True:
             print(number)
             break
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     number += 2
     
