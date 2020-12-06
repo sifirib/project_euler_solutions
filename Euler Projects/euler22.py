@@ -4,6 +4,7 @@ alphabets = list(string.ascii_uppercase)
 with open("/home/hrx/Desktop/projects/python/Euler Projects/names.txt") as f:
     names = f.read()
 names = names.split(",")
+names[len(names) - 1] = "ALONSO"
 list.sort(names)
 
 names2 = []
